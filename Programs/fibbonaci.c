@@ -1,6 +1,4 @@
 #include <stdio.h>
- // new number = old number + current number;
- // new number = m , old number = o ; current number = n 
 int main () {
     int m,n=1,o=0,nums;
     printf("Enter the number of terms: ");
