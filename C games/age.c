@@ -1,6 +1,6 @@
 #include <stdio.h>
 #define YEAR 2022
-#define DAY 12
+#define DAY 15
 #define MONTH 3
 
 int isLeapYear(int a)
@@ -45,6 +45,7 @@ int Days(int a, int b, int c)
         {
             totalDays += months[i];
         }
+        // feb 1 --> jan + 1;
         totalDays += c;
         daysLeft = 366 - totalDays;
         return daysLeft;
